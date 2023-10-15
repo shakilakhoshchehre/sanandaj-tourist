@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/home.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <title>سنندج توریسم</title>
+</head>
+
+<body>
+
+    <header class="p-3 mb-3 border-bottom">
+        <div class="row">
+            <div class="col-2">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <img src="img/logo.png" alt="" width="100px">
+                </a>
+            </div>
+            <div class="col-8">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">صفحه اصلی</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">ورکشاپ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link px-2 link-dark" id="shakila-visa" data-bs-toggle="dropdown"
+                            aria-expanded="false">ویزا</a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="shakila-visa">
+                            <li><a class="dropdown-item" href="#">ویزای تحصیلی</a></li>
+                            <li><a class="dropdown-item" href="#">ویزای سرمایه گذاری</a></li>
+                            <li><a class="dropdown-item" href="#">ویزای کاری</a></li>
+                            <li><a class="dropdown-item" href="#">ویزای شینگن</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#" class="nav-link px-2 link-dark" id="shakila-tor"
+                            data-bs-toggle="dropdown">تورها</a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="shakila-tor">
+                            <li><a class="dropdown-item" href="#">تورهای داخلی</a></li>
+                            <li><a class="dropdown-item" href="#">تورهای خارجی</a></li>
+                            <li><a class="dropdown-item" href="#">تورهای زیارتی</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="nav-link px-2 link-dark" id="shakila-mahboob"
+                            data-bs-toggle="dropdown">مکان های محبوب</a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="shakila-mahboob">
+                            <li><a class="dropdown-item" href="#">آبشارنیاگارا</a></li>
+                            <li><a class="dropdown-item" href="#">اهرام ثلاثه مصر</a></li>
+                            <li><a class="dropdown-item" href="#">جنگل آمازون</a></li>
+                            <li><a class="dropdown-item" href="#">قلعه سرخ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="nav-link px-2 link-dark" id="shakila-maghale"
+                            data-bs-toggle="dropdown">مقالات</a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="shakila-maghale">
+                            <li><a class="dropdown-item" href="#">بهترین کشور برای مهاجرت تحصیلی</a></li>
+                            <li><a class="dropdown-item" href="#">شرایط گرفتن بورسه تحصیلی</a></li>
+                            <li><a class="dropdown-item" href="#">شرایط ادامه تحصیل در خارج از کشور</a></li>
+                            <li><a class="dropdown-item" href="#">پذیرش بیت کوین در صنعت گردشگری</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="nav-link px-2 link-dark">تماس باما</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">ثبت نام</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">ورود</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col-8">
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                            <input type="search" class="form-control" placeholder="جستجو..." aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary">رزرو تور</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div>
+            <div id="showcase">
+                <div id="contaner">
+                    <div class="showcase-content">
+                        <div class="containr ">
+                            <div class="background mt-2 d-flex justify-content-center align-items-center">
+                                <div class="container-fluid me-5 ms-5 ml-2  p-4" style="background-color: rgba(255, 255, 255, 0.486);">
+
+                                    <form class="row g-3 justify-content-center ">
+
+                                        <div class="  col-md-2">
+                                            <input type="text" class="form-control container-fluid p-3" id="inputCity"
+                                                placeholder="به کجا؟">
+
+
+                                        </div>
+                                        <div class="col-md-3 ">
+                                            <select id="inputState" class="form-select container-fluid p-3">
+                                                <option selected>چه زمانی؟</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                        
+
+
+                                        <div class="col-md-2">
+                                            <select id="inputState" class="form-select container-fluid p-3">
+                                                <option selected>کشفیات</option>
+                                                <option selected>تاریخی</option>
+                                                <option selected>ساحلی</option>
+                                                <option selected>شهر</option>
+                                                <option selected>نوع را انتخاب کنید</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+
+
+
+                                        <div class="col-md-2">
+                                            <button type="button"
+                                                class="btn btn-primary  container-fluid p-3 rounded-pill"> <svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                                </svg> search</button>
+
+                                        </div>
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="pt-5">شرکت توریست سنندج</h3>
+                <h1>چرا شرکت سنندج را انتخاب کنیم</h1>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+
+</body>
+
+</html>
